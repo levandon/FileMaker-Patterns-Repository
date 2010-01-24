@@ -1,0 +1,11 @@
+/*Override default Blueprint CSS formatting below. You can also include other css files here by adding:
+
+@import url('blueprint/src/reset.css');
+*/
+
+
+/* Use this class on any div.span / container to see the grid. */
+.showgrid {
+  background: url(/images/grid.png);  
+}
+
