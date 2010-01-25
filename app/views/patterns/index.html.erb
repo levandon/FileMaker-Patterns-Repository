@@ -1,0 +1,32 @@
+<h1>Listing patterns</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Intent</th>
+    <th>Description</th>
+    <th>Motivating probelm</th>
+    <th>How it works</th>
+    <th>When to use it</th>
+    <th>Additional resources</th>
+  </tr>
+
+<% @patterns.each do |pattern| %>
+  <tr>
+    <td><%=h pattern.name %></td>
+    <td><%=h pattern.intent %></td>
+    <td><%=h pattern.description %></td>
+    <td><%=h pattern.motivating_probelm %></td>
+    <td><%=h pattern.how_it_works %></td>
+    <td><%=h pattern.when_to_use_it %></td>
+    <td><%=h pattern.additional_resources %></td>
+    <td><%= link_to 'Show', pattern %></td>
+    <td><%= link_to 'Edit', edit_pattern_path(pattern) %></td>
+    <td><%= link_to 'Destroy', pattern, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New pattern', new_pattern_path %>

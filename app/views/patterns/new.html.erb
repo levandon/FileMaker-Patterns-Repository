@@ -1,0 +1,39 @@
+<h1>New pattern</h1>
+
+<% form_for(@pattern) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_area :name %>
+  </p>
+  <p>
+    <%= f.label :intent %><br />
+    <%= f.text_area :intent %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :motivating_probelm %><br />
+    <%= f.text_area :motivating_probelm %>
+  </p>
+  <p>
+    <%= f.label :how_it_works %><br />
+    <%= f.text_area :how_it_works %>
+  </p>
+  <p>
+    <%= f.label :when_to_use_it %><br />
+    <%= f.text_area :when_to_use_it %>
+  </p>
+  <p>
+    <%= f.label :additional_resources %><br />
+    <%= f.text_area :additional_resources %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', patterns_path %>

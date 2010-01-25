@@ -1,0 +1,38 @@
+<p>
+  <b>Name:</b>
+  <%=h @pattern.name %>
+</p>
+
+<p>
+  <b>Intent:</b>
+  <%=h @pattern.intent %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @pattern.description %>
+</p>
+
+<p>
+  <b>Motivating probelm:</b>
+  <%=h @pattern.motivating_probelm %>
+</p>
+
+<p>
+  <b>How it works:</b>
+  <%=h @pattern.how_it_works %>
+</p>
+
+<p>
+  <b>When to use it:</b>
+  <%=h @pattern.when_to_use_it %>
+</p>
+
+<p>
+  <b>Additional resources:</b>
+  <%=h @pattern.additional_resources %>
+</p>
+
+
+<%= link_to 'Edit', edit_pattern_path(@pattern) %> |
+<%= link_to 'Back', patterns_path %>

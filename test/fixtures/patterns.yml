@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyText
+  intent: MyText
+  description: MyText
+  motivating_probelm: MyText
+  how_it_works: MyText
+  when_to_use_it: MyText
+  additional_resources: MyText
+
+two:
+  name: MyText
+  intent: MyText
+  description: MyText
+  motivating_probelm: MyText
+  how_it_works: MyText
+  when_to_use_it: MyText
+  additional_resources: MyText
