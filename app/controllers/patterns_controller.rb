@@ -1,4 +1,5 @@
 class PatternsController < ApplicationController
+  
   # GET /patterns
   # GET /patterns.xml
   def index
