@@ -1,6 +1,6 @@
-@import url('blueprint/src/reset.css');
-@import url('blueprint/src/typography.css');
-@import url('blueprint/src/grid.css');
-@import url('blueprint/src/forms.css');
+@import url('blueprint/blueprint/src/reset.css');
+@import url('blueprint/blueprint/src/typography.css');
+@import url('blueprint/blueprint/src/grid.css');
+@import url('blueprint/blueprint/src/forms.css');
 @import url('override.css');
 
