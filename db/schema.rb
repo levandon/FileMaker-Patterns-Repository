@@ -9,10 +9,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100125140355) do
+ActiveRecord::Schema.define(:version => 20100125141522) do
 
   create_table "patterns", :force => true do |t|
-    t.text     "name"
+    t.string   "name"
     t.text     "intent"
     t.text     "description"
     t.text     "motivating_probelm"
