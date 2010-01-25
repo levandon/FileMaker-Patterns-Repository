@@ -5,7 +5,7 @@
   <head>
     <title>
       <%= yield :title %> - <%= RefinerySetting.find_or_set(:site_name, "Company Name") %>
-    </title><%= stylesheet_link_tag "override" %><%= stylesheet_link_tag 'home' if @page.home? %>
+    </title><%= stylesheet_link_tag "application" %><%= stylesheet_link_tag 'home' if @page.home? %>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><%= yield :head %>
 
