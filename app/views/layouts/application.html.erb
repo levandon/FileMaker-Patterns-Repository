@@ -14,10 +14,8 @@
   <body>
     <%= render :partial => "/shared/ie6check" if request.env['HTTP_USER_AGENT'] =~ /MSIE/ %><!-- page container -->
 
-      <div class="container showgrid">
-        Content here
-        <br>
-        <%= link_to "View the Patterns", patterns_path %> 
+      <div class="container showgrid">        
+        <%= yield %>
       </div>
 
   </body>
