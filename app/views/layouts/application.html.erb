@@ -14,7 +14,7 @@
   <body>
     <%= render :partial => "/shared/ie6check" if request.env['HTTP_USER_AGENT'] =~ /MSIE/ %><!-- page container -->
 
-      <div class="container showgrid">        
+      <div class="container showgrid"> 
         <%= yield %>
       </div>
 
